@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #ff6060;
+    font-weight: bold;
+    padding-inline: 100px;
+    margin-bottom:26px;
+ }
+
+.navbar__logo{
+    margin-right: auto;
+}
+
+.navbar__logo img{
+    height:62px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:#ff6060;
+    font-size: 24px;
+    font-family:'Montserrat';
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+}
+
+@media screen and (width<=768px) {
+    .navbar {
+        text-transform: uppercase;
+        padding-inline: 20px;
+        margin-bottom:20px;
+    }
+    .navbar a {
+        font-size: 12px;
+    }
+    .navbar__logo img{
+        height:43px;
+    }
+
+}
+

@@ -1,0 +1,9 @@
+.main {
+    padding-inline: 100px;
+}
+
+@media screen and (width<=768px) {
+    .main {
+        padding-inline: 20px;
+    }
+}

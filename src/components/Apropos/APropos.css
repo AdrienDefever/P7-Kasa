@@ -1,0 +1,15 @@
+
+.about__container{
+    padding-inline: 108px;
+}
+
+.about img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+@media screen and (width<=768px){
+    .about__container{
+        padding-inline: 0px;
+}
+}   

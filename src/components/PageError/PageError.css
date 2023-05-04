@@ -1,0 +1,47 @@
+.pageError {
+    color:#ff6060;
+    text-align: center;
+}
+
+.pageError h1{
+    font-size: 288px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+.pageError h2{
+    color:#ff6060;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 180px;
+}
+
+.pageError h3{
+    color:#ff6060;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+@media screen and (width<=768px) {
+    .pageError h1{
+        font-size: 96px;
+        margin-bottom: 11px;
+        margin-top: 198px;
+    }
+    
+    .pageError h2{
+        font-size: 18px;
+        margin-bottom: 133px;
+    }
+    
+    .pageError h3{
+        font-size: 14px;
+    } 
+}

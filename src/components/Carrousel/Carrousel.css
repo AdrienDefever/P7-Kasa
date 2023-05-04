@@ -1,0 +1,47 @@
+.apartment__banner img {
+    width:100%;
+    height: 415px;
+    object-fit:cover;
+    border-radius:25px;
+    box-sizing: border-box;    
+}
+
+.apartment__banner{
+    position: relative;
+    margin-bottom:30px;
+ 
+}
+
+.carrousel{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.counter_carrousel{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (width<=768px) {
+    .apartment__banner img {
+        height: 255px;
+        border-radius:10px;
+    }
+
+    .counter_carrousel{
+        visibility: hidden;
+    }
+    
+}

@@ -1,0 +1,65 @@
+
+.apartment__host{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.apartment__host__profile {
+    display: flex;
+}
+
+.apartment__host__picture img{
+    border-radius: 50%;
+    max-height: 64px;
+    max-width:64px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.apartment__host__name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.apartment__host__rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+
+@media screen and (width<=768px)  {
+    .apartment__host{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-grow: 1;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .apartment__host__name{
+        font-size: 12px;
+    }
+
+    .apartment__host__rating{
+        font-size: 13px;
+    }
+
+    .apartment__host__picture img{
+        max-height: 32px;
+        max-width:32px;
+    }
+    
+}
+

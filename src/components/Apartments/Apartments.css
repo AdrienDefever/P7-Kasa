@@ -1,0 +1,21 @@
+.appartments {
+    background-color: #f6f6f6;
+    min-height : 300px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content:space-around;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+@media screen and (width <= 768px) {
+    .appartments {
+        justify-content: center;
+        background-color: white;
+        padding: 0px;
+    }
+}

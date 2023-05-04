@@ -1,0 +1,55 @@
+.apartment__item{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.apartment__item__title{
+    background-color: #ff6060;
+    color:white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    padding-inline: 20px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.apartment__item .content{
+    background-color: #f6f6f6;
+    color:#ff6060;
+    border-radius: 10px;
+    margin: 0px;
+    position: relative;
+    top:-10px;
+    padding : 40px 12px 0px 15px ;
+    z-index: -1;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 250px;
+}
+
+.apartment__item .content ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+@media screen and (width<=768px) {
+    .apartment__item__title{
+        height: 30px;
+        font-size: 13px;
+    }
+
+    
+    .apartment__item .content{
+        top:-10px;
+        padding : 40px 12px 0px 15px;
+        font-size: 12px;
+        min-height: 90px;
+    }
+
+}
