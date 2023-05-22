@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Apartments.css"
 import CardApartment from '../CardApartment/CardApartment.jsx'
-import getAllApartments from '../../data/services'
+import {getAllApartments} from '../../data/services'
 
 function Apartments() {
   
@@ -16,7 +16,7 @@ function Apartments() {
 
  return (
     <div className="appartments">
-        {apartments.map((element) => (<CardApartment title = {element.title} imageUrl={element.cover} id ={element.id} />))}
+        {apartments.map((element, index) => (<CardApartment key={index} title = {element.title} imageUrl={element.cover} id ={element.id} />))}
         
     </div>
 
@@ -24,3 +24,4 @@ function Apartments() {
 }
 
 export default Apartments
+

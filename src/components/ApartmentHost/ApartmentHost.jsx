@@ -21,7 +21,11 @@ function ApartmentHost(props) {
         </div>
          <div className="apartment__host__rating">
          {rating.map((ratingElement) =>
-                ratingApartment >= ratingElement ? <span key={ratingElement.toString()}>★</span> : "☆"
+                ratingApartment >= ratingElement ? (
+                <span key={ratingElement.toString()}><i class="fa-solid fa-star"></i></span>
+                ) : (
+                  <span key={ratingElement.toString()}><i class="fa-regular fa-star"></i></span>
+                )
             )}
         
         </div> 
@@ -30,3 +34,4 @@ function ApartmentHost(props) {
 }
 
 export default ApartmentHost
+

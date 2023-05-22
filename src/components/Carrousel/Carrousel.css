@@ -25,6 +25,12 @@
     color: white;
 }
 
+
+.carrousel i{
+    cursor: pointer;
+    padding :10px;
+}
+
 .counter_carrousel{
     position: absolute;
     top: 90%;

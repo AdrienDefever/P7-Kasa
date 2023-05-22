@@ -26,12 +26,7 @@ function Collapse(props) {
 export default Collapse
 
 
-// <i className="fa-solid fa-chevron-down" onClick={Collapse}></i>
-// <p className="content">{props.content}</p>
 
-
-
-//fonction pour gérer l'afichage du contenu des collapses
 
 
 

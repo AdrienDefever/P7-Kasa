@@ -18,6 +18,10 @@
     margin: 0;
 }
 
+.apartment__item__title i {
+   cursor: pointer;
+}
+
 .apartment__item .content{
     background-color: #f6f6f6;
     color:#ff6060;
@@ -30,7 +34,9 @@
     font-family: 'Montserrat';
     font-size: 18px;
     font-weight: 400;
-    min-height: 250px;
+    height: auto;
+    padding-bottom: 30px;
+
 }
 
 .apartment__item .content ul{

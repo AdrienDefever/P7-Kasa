@@ -24,7 +24,7 @@
     padding-right: 5px;
     display: flex;
     flex-direction: column;
-    align-items:end;
+    align-items: flex-end;
     justify-content: center;
     font-size: 18px;
     font-family: 'Montserrat';

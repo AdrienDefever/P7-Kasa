@@ -16,3 +16,4 @@ function CardApartment(props) {
 }
 
 export default CardApartment
+
